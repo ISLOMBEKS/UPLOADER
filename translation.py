@@ -1,12 +1,12 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """Salom,
 
-This is a Telegram URL Upload Bot!
+ Bu Telegram URL manzilini yuklash boti!
 
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+ <b> Iltimos, menga to'g'ridan -to'g'ri yuklab olish URL manzilini yuboring, men Telegramga Fayl/Video sifatida yuklay olaman </b>
 
-/help for more details..
+ /help batafsil ma'lumot uchun..
 
 """
 

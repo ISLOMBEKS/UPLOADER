@@ -10,7 +10,7 @@ class Translation(object):
 
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """Salom, men URL yuklovchi botiman..
     
 1. Send url (Link | New Name with Extension).
 2. Send Custom Thumbnail (Optional).

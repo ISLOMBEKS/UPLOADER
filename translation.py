@@ -1,6 +1,6 @@
 class Translation(object):
 
-    START_TEXT = """Salom,
+    START_TEXT = """👋Salom,
 
  Bu Telegram URL manzilini yuklash boti!
 
@@ -10,23 +10,21 @@ class Translation(object):
 
 """
 
-    HELP_USER = """Salom, men URL yuklovchi botiman..
+    HELP_USER = """👋Salom, men URL yuklovchi botiman..
     
-1. Send url (Link | New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-
-Support Group : @TroJanzSupport
+1️⃣. URL manzilini yuboring.
+2️⃣. Eskiz yuboring.
+3️⃣. Tugmani tanlang.
+   SVideo - Faylni video shaklida screenshotlar bilan yuboradi
+   DFile  - Faylni screenshotlar bilan yuboradi
+   Video  - Faylni video shaklida yuboradi
+   File  - Faylni yuboradi
 """
 
-    FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
+    FORMAT_SELECTION = """🛎️Formatni tanlang: <a href='{}'>fayl hajmi tahminiy bõlishi mumkin</a>
     
-Send your custum thumbnail if required.
-You can use /deletethumbnail to delete the auto-generated thumbnail."""
+Xoxlasangiz eskiz yuboring.
+/deletethumbnail eskizni õchirish uchun."""
     
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
@@ -34,13 +32,13 @@ URL | newfilename | username | password"""
 
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
     
-    DOWNLOAD_START = "Trying to download your file..."
+    DOWNLOAD_START = "📥Yuklab olish..."
     
-    UPLOAD_START = "Uploading now.."
+    UPLOAD_START = "📤Yuborish.."
     
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "📥Yuklab olindi {} sekundda. \n\n📤Yuborildi {} sekundda."
 
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "📥Yuklab olindi {} sekundda.\n📁Fayl hajmi: {}\nKechirasiz. Fayl hajmi 2 GB dan yuqori bõlganligi uchun, faylni Telegramga yuklashning iloji yõq❌."
 
     SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
 
@@ -52,6 +50,6 @@ URL | newfilename | username | password"""
 
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     
-    SHOW_THUMB = "Use /deletethumbnail to clear this thumbnail."
+    SHOW_THUMB = "🗑️Eskizni õchirish uchun /deletethumbnail buyrugidan foydalaning."
     
-    NO_THUMB = "No saved thumbnails Found!!\n\nSend an image to save it as your thumbnail permanently."    
+    NO_THUMB = "Eskiz topilmadi!!\n\nAvval rasm yuboring."    

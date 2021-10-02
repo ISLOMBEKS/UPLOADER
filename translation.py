@@ -4,7 +4,7 @@ class Translation(object):
 
  Bu Telegram URL manzilini yuklash boti!
 
- <b> Iltimos, menga to'g'ridan -to'g'ri yuklab olish URL manzilini yuboring, men Telegramga Fayl/Video sifatida yuklay olaman </b>
+ <b> Iltimos, menga to'g'ridan to'g'ri yuklab olish URL manzilini yuboring, men Telegramga Fayl/Video sifatida yuklay olaman </b>
 
  /help batafsil ma'lumot uchun..
 
@@ -15,10 +15,10 @@ class Translation(object):
 1️⃣. URL manzilini yuboring.
 2️⃣. Eskiz yuboring.
 3️⃣. Tugmani tanlang.
-   SVideo - Faylni video shaklida screenshotlar bilan yuboradi
-   DFile  - Faylni screenshotlar bilan yuboradi
-   Video  - Faylni video shaklida yuboradi
-   File  - Faylni yuboradi
+\n\n🎞️SVideo - Faylni video shaklida screenshotlar bilan yuboradi
+\n💾DFile  - Faylni screenshotlar bilan yuboradi
+\n🎞️Video  - Faylni video shaklida yuboradi
+\n💾File  - Faylni yuboradi
 """
 
     FORMAT_SELECTION = """🛎️Formatni tanlang: <a href='{}'>fayl hajmi tahminiy bõlishi mumkin</a>
@@ -26,7 +26,7 @@ class Translation(object):
 Xoxlasangiz eskiz yuboring.
 /deletethumbnail eskizni õchirish uchun."""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """📝"""
+    SET_CUSTOM_USERNAME_PASSWORD = """꧁ ❁ ❀ ❀ ❁꧂"""
 
 
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
@@ -39,9 +39,9 @@ Xoxlasangiz eskiz yuboring.
 
     RCHD_TG_API_LIMIT = "📥Yuklab olindi {} sekundda.\n📁Fayl hajmi: {}\nKechirasiz. Fayl hajmi 2 GB dan yuqori bõlganligi uchun, faylni Telegramga yuklashning iloji yõq❌."
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
+    SAVED_CUSTOM_THUMB_NAIL = "✅Eskiz muvaffaqiyatli saqlandi.\n\nUni õchirish ichun /deletethumbnail dan foydalaning."
 
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "🗑️Eskiz muvaffaqiyatli õchirildi."
 
     CUSTOM_CAPTION_UL_FILE = " "
 
@@ -51,4 +51,4 @@ Xoxlasangiz eskiz yuboring.
     
     SHOW_THUMB = "🗑️Eskizni õchirish uchun /deletethumbnail buyrugidan foydalaning."
     
-    NO_THUMB = "Eskiz topilmadi!!\n\nAvval rasm yuboring."    
+    NO_THUMB = "❌Eskiz topilmadi!!\n\nAvval rasm yuboring."    

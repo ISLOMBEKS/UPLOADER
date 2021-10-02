@@ -26,8 +26,7 @@ class Translation(object):
 Xoxlasangiz eskiz yuboring.
 /deletethumbnail eskizni õchirish uchun."""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | newfilename | username | password"""
+    SET_CUSTOM_USERNAME_PASSWORD = """📝"""
 
 
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
